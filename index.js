@@ -49,7 +49,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 (async () => {
   try {
     await rest.put(
-      Routes.applicationCommands(process.env.CLIENT_ID),
+      Routes.applicationCommands(1467004747583328378),
       { body: commands }
     );
     console.log("✅ Slash command registered");
@@ -141,4 +141,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 /* LOGIN */
-client.login(process.env.TOKEN);
+client.login(MTQ2NzAwNDc0NzU4MzMyODM3OA.GOeMAE.H60U7Xj4cTS6tr6farDnKMfnTxlp8MMoR2yadw);
